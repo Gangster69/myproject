@@ -1,9 +1,16 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scanner =new Scanner(System.in);
+		System .out.println("Your name:");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
 		Person p =new Person(65.5f, 1.7f);
 //		p.weight = 65.5f;
 //		p.height = 1.7f;
@@ -28,7 +35,7 @@ public class hello {
 		
 		String s1 = new String("abc");
 		String s2 = new String("abc");
-		System .out.println(s1.equals(s2));
+		System.out.println(s1.equals(s2));
 		
 		String s3="abc";
 		String s4="abc";
