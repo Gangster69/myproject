@@ -1,21 +1,33 @@
 package com.tom;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner =new Scanner(System.in);
+		int a =1;
+		while(a > 0){
+			System.out.println("123");
+			a = a-1;
+		}
+		
+		Random random = new Random();
+		int number = random.nextInt(100) + 1;
+		System.out.println(number);
+		
+		
+		/*Scanner scanner =new Scanner(System.in);
 		System .out.println("Your name:");
 		String name = scanner.nextLine();
-		System.out.println(name);
+		System.out.println(name);*/
 		
-		Person p =new Person(65.5f, 1.7f);
+//		Person p =new Person(65.5f, 1.7f);
 //		p.weight = 65.5f;
 //		p.height = 1.7f;
-		System.out.println(p.bmi());
-		p.hello();
+//		System.out.println(p.bmi());
+//		p.hello();
 //		Person hank = new Person();
 //		Person jack = null;
 //		jack.hello();
