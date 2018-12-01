@@ -7,7 +7,10 @@ public class hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a =1;
+		
+		
+		
+		/*int a =1;
 		while(a > 0){
 			System.out.println("123");
 			a = a-1;
@@ -15,7 +18,7 @@ public class hello {
 		
 		Random random = new Random();
 		int number = random.nextInt(100) + 1;
-		System.out.println(number);
+		System.out.println(number);*/
 		
 		
 		/*Scanner scanner =new Scanner(System.in);
@@ -37,7 +40,7 @@ public class hello {
 //		int math=90;
 //		System.out.println(name+ "\t" +english+ "\t" +math+"\t"+(english+math)/2);
 		
-		Student stu =new Student();
+		/*Student stu =new Student();
 		stu.name = "Hank";
 		stu.english = 70;
 		stu.math = 90;
@@ -59,7 +62,7 @@ public class hello {
 		//age=day;
 		//float weight=35.45f;
 		//float num=(float)65.8;
-		//System.out.println("age");
+		//System.out.println("age");*/
 	}
 
 }
