@@ -6,11 +6,14 @@ public class PokerGames {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] flowers = {9827 ,9830 ,9829 ,9824};
+		Poker poker =new Poker();
+		poker.print();
+		
+		/*int[] flowers = {9827 ,9830 ,9829 ,9824};
 		int[] pokers = {1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,11 ,12 ,13};
 		for(int i=0 ;i<pokers.length ;i++) {
 			System.out.println(pokers);
-		}
+		}*/
 		
 		/*int[] nums =new int[5];
 		nums[0]=5;
